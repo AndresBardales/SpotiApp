@@ -4,12 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { SearchComponent } from './components/search/search.component';
 import { HomeComponent } from './components/home/home.component';
+import { ArtistaComponent } from './components/artista/artista.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
+
+    HomeComponent,
     SearchComponent,
-    HomeComponent
+    ArtistaComponent
   ],
   imports: [
     BrowserModule
